@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: darkslategrey;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#gameContainer {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw auto;
+    background-color: #0c1021;
+    border: solid 10px slategrey;
+
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+}
+
+.gameBoardPixel {
+    width: 1vw;
+    height: 1vw;
+    float: left;
+}
+
+/* Snaky */
+.snakeBodyPixel {
+    background-color: #fd6401;
+    box-shadow: 0 0 5px #fd6401;
+    outline: white solid .5px;
+}
+
+/* Foodies */
+.food {
+    background-color: #68e768;
+}
+
+/* Score board */
+#scoreContainer {
+    width: 40vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.scoreBoard {
+    border: solid 5px slategrey;
+    color: white;
+    background-color: #0c1021;
+    display: inline-block;
+    padding: 1vw;
+    width: 40%;
+
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+}
